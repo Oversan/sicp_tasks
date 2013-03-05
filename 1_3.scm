@@ -1,4 +1,4 @@
-(define (sum-sqrs-of-highest-nums x y z)
+(define (sqr-of-two-max x y z)
     (cond ((and (<= x y) (<= x z))
             (+ (* y y) (* z z)))
           ((and (<= y x) (<= y z))
